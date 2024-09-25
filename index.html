@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGAS CSS | PRAKTIKUM</title>
+    <link rel="stylesheet" href="src/output.css">
+</head>
+<body class="h-[173rem] lg:h-[50rem]">
+
+    <!-- Nav -->
+    <nav class="fixed w-full bg-greyNav bottom-0 lg:bottom-auto lg:top-0 z-50">
+        <div class="flex justify-center items-center h-16 text-center font-medium">
+            <div class="m-auto space-x-12">
+                <a href="">Tentang Kami</a>
+                <a href="">Beranda</a>
+                <a href="">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cont -->
+    <p class="font-bold text-center mt-10 text-4xl lg:mt-24 ">Pilih Kru Anda</p>
+
+    <div class="flex flex-col items-center lg:flex-row lg:justify-center">
+        <div class="lg:mt-[-5rem]">
+            <!-- Luffy -->
+            <div class="relative bg-brownBgLuffy w-[289px] h-[299px] rounded-3xl flex flex-col justify-center items-center m-auto mt-28 lg:w-[490px] lg:h-[180px] lg:flex-row lg:items-center">
+                <div class="flex justify-center">
+                    <img src="img/Luffy.png" alt="Luffy" class="w-[15rem] absolute -top-[3.4rem] lg:relative lg:-top-3">
+                </div>
+                <div class="text-center mt-40 z-10 lg:text-left lg:flex lg:flex-col-reverse lg:pr-5 lg:mt-0">
+                    <button class="bg-brownBtnLuffy w-[212.41px] h-[45.43px] rounded-[15px] text-[20px] font-medium text-white justify-center lg:mt-2 lg:mb-4 lg:w-[15rem] lg:h-[37px]">Pilih Saya</button>
+                    <p class= "text-2xl font-medium lg:text-3xl mt-3 lg:mb-10">Monkey D Luffy<span class="block text-base lg:text-sm lg:mt-2">Si Topi Jerami</span></p>
+                </div>
+            </div>
+
+            <div class="lg:flex">
+                <div class="lg:w-[230px] lg:mr-7">
+                    <!-- Zoro -->
+                    <div class="relative bg-greenBgZoro w-[288.53px] h-[221px] rounded-3xl flex flex-col items-center justify-center m-auto mt-8 lg:w-[235px] lg:h-[180px]">
+                        <img src="img/zoro.png" alt="" class="w-[275px] absolute pt-1 lg:w-[239px] lg:mb-3">
+                        <div class="flex flex-col items-center justify-center mt-40">
+                            <button class="bg-greenBtnZoro w-[212.41px] h-[45.43px] rounded-[15px] text-[20px] font-medium text-white justify-center z-10 lg:w-[173px] lg:h-[37px] lg:mb-12">Pilih Saya</button>
+                        </div>
+                    </div>
+                    <!-- Nami -->
+                    <div class="relative bg-pinkBgNami w-[289px] h-[239.85px] rounded-3xl flex flex-col items-center justify-center m-auto mt-8 lg:w-[235px] lg:h-[180px]">
+                        <img src="img/nami.png" alt="" class="w-[275px] absolute pt-7 lg:w-[238px] lg:pt-0">
+                        <div class="flex flex-col items-center justify-center mt-40">
+                            <button class="bg-pinkBtnNami w-[212.41px] h-[45.43px] rounded-[15px] text-[20px] font-medium text-white justify-center mt-3 z-10 lg:w-[173px] lg:h-[37px] lg:mb-12">Pilih Saya</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sanji -->
+                <div class="relative bg-blueBgSanji w-[289px] h-[314px] rounded-3xl flex flex-col items-center justify-center m-auto mt-20 lg:w-[230px] lg:h-[392px] lg:mt-8">
+                    <img src="img/sanji.png" alt    ="" class="w-[240px] absolute -top-12 pt-[1px] lg:top-2 lg:w-[12.5rem]">
+                    <div class="flex flex-col items-center justify-center mt-32 lg:flex-col-reverse lg:mt-44">
+                        <button class="bg-blueBtnSanji w-[212.41px] h-[45.43px] rounded-[15px] text-[20px] font-medium text-white justify-center mb-4 z-10 lg:w-[173px] lg:h-[37px]">Pilih Saya</button>
+                        <p class="font-medium text-center text-2xl pb-2 lg:mb-5">Sanji<span class="text-xs block text-center max-w-[12rem] mt-2 lg:max-w-[8rem] lg:mt-4">Sanji adalah kru bajak laut yang bisa memasak</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="lg:block">
+            <div class="lg:bg-bgDesktop lg:w-[500px] lg:h-[392px] lg:rounded-[20px] lg:ml-8 lg:flex lg:flex-col lg:mt-8">
+                <!-- God Usop -->
+                <div class="relative bg-bgGodUsop w-[289px] h-[239.85px] rounded-[20px] flex flex-col items-center justify-center m-auto mt-8 lg:bg-white lg:w-[423px] lg:h-[96px] lg:border lg:border-colorBorder">
+                    <img src="img/god_usopp.png" alt="" class="w-[241px] absolute mt-8 lg:w-[70px] lg:left-0 lg:ml-3 lg:mb-6">
+                    <div class="flex flex-col items-center mt-44 lg:mt-3">
+                        <p class="text-xl hidden lg:block font-medium mr-40">Usopp</p>
+                        <button class="bg-buttonGodUsop w-[212.41px] h-[45.43px] rounded-[15px] text-[20px] font-medium text-white justify-center z-10 lg:w-[149px] lg:h-[22px] lg:rounded-[10px] lg:text-xs lg:mr-20 lg:mt-2">Pilih Saya</button>
+                    </div>
+                </div>
+                <!-- Chopper -->
+                <div class="relative bg-bgGodUsop w-[288.53px] h-[221px] rounded-[20px] flex flex-col items-center justify-center m-auto mt-8 lg:bg-white lg:w-[423px] lg:h-[96px] lg:border lg:border-colorBorder lg:mt-0">
+                    <img src="img/chopper.png" alt="" class="w-[216px] absolute mt-3 lg:w-[70px] lg:left-0 lg:ml-3 lg:mb-4">
+                    <div class="flex flex-col items-center mt-[10.5rem] lg:mt-5">
+                        <p class="text-xl hidden lg:block font-medium mr-[8.5rem] z-50">Chopper</p>
+                        <button class="bg-buttonGodUsop w-[212.41px] h-[45.43px] rounded-[15px] text-[20px] font-medium text-white justify-center mb-2 z-10 lg:w-[149px] lg:h-[22px] lg:rounded-[10px] lg:text-xs lg:mr-20 lg:mt-2">Pilih Saya</button>
+                    </div>
+                </div>
+                <!-- Robbin -->
+                <div class="relative bg-bgGodUsop w-[288.53px] h-[221px] rounded-[20px] flex flex-col items-center justify-center m-auto mt-8 lg:bg-white lg:w-[423px] lg:h-[96px] lg:border lg:border-colorBorder lg:mt-0">
+                    <img src="img/robin.png" alt="" class="w-[230px] absolute pt-2 lg:w-[70px] lg:left-0 lg:ml-3 lg:mb-3">
+                    <div class="flex flex-col items-center mt-[10.5rem] lg:mt-3">
+                        <p class="text-xl hidden lg:block font-medium mr-40">Robbin</p>
+                        <button class="bg-buttonGodUsop w-[212.41px] h-[45.43px] rounded-[15px] text-[20px] font-medium text-white justify-center mb-2 z-10 lg:w-[149px] lg:h-[22px] lg:rounded-[10px] lg:text-xs lg:mr-20 lg:mt-2">Pilih Saya</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="lg:flex lg:bg-bgGrup2 lg:w-[500px] lg:h-[180px] lg:rounded-[20px] lg:ml-8 lg:mt-8">
+                <!-- Brook -->
+                <div class="relative bg-bgBrook  w-[288.53px] h-[221px] rounded-[20px] flex items-center justify-center m-auto mt-8 lg:bg-opacity-0 lg:mt-[-3rem]">
+                    <img src="img/brook.png" alt="" class="w-[200px] absolute pt-2 lg:w-[120px] lg:left-0 lg:mt-14 lg:ml-4">
+                    <div class="flex flex-col items-center justify-center mt-[10.3rem] lg:ml-32">
+                        <p class="text-[15px] hidden lg:block font-medium mr-14 mb-2 mt-4">Brook</p>
+                        <button class="bg-buttonBrook w-[212.41px] h-[45.43px] rounded-[15px] text-[20px] font-medium text-white justify-center mb-3 z-10 lg:w-[100px] lg:h-[55px] lg:bg-bgBTNDesk lg:text-[15px] lg:mb-20">Pilih Saya</button>
+                    </div>
+                </div>
+                <!-- Jinbe -->
+                <div class="relative bg-bgJinbe w-[288.53px] h-[221px] rounded-[20px] flex items-center justify-center m-auto mt-8 lg:bg-opacity-0">
+                    <img src="img/jinbei.png" alt="" class="w-[240px] absolute pt-6 lg:w-[124px] lg:left-0 lg:pt-0 lg:mb-16">
+                    <div class="flex flex-col items-center justify-center mt-[10.5rem] lg:ml-28 lg:mt-5">
+                        <p class="text-[15px] hidden lg:block font-medium mr-14 mb-2">Jinbe</p>
+                        <button class="bg-buttonJinbe w-[212.41px] h-[45.43px] rounded-[15px] text-[20px] font-medium text-white justify-center mb-3 z-10 lg:w-[100px] lg:h-[55px] lg:bg-bgBTNDesk lg:text-[15px] lg:mb-20">Pilih Saya</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
